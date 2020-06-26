@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div id="container">
-
+    <div id="container">    
         <!--this is the navigation section-->
         <nav>
             <img src="assets/logo.jpg" width="100px" height="100px"position="left" alt="logo">
@@ -27,60 +26,59 @@
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </nav>
-
+        <br><br>
         <div>
-            <h1>My Expense Tracker</h1>
+            <h1>My Expense Tracker</h1><br>
             <p>
                 My expense tracker is a budget app which anyone can use to to enter expenses which can be deducted from the total budget.
             </p>
         </div>
-<br><br>
-    <h1>Expense Tracker 1.0</h1>
-    <br><hr>
-    <h2>Total Budget: <span id="totalBudget">0</span></h2>
-    <h2>Current Balance:<span id="currentBalance">0</span></h2>
-    <br><hr>
-    <h2>Add Money To Budget</h2>
+        <br>
+                <h2>Total Budget: <span id="totalBudget">0</span></h2>
+        <br>
+                <h2>Current Balance:<span id="currentBalance">0</span></h2>
+        <br>
+                <h2>Add Money To Budget</h2>
 
-    <input type="number" id="money" placeholder="Add Money">
-    <button onclick="addMoney()">Add Money</button>
-    <br><hr>
-
-    <h2>Add Expenses</h2>
-    <input type="text" id="expenseName" placeholder="expense name">
-    <input type="number" id="expenseAmount" placeholder="expense amount">
-    <button onclick="addExpense()">Add Expense</button>
-    <h2>Added Epenses</h2>
-    <div id="addedExpenses"></div>
-
-    <div>
-        <a href="index.html">
-            <button type="button">
-               Back to Home
-            </button>
-        </a>
-    </div>
-<br>
-
-<footer>
-    <div class="box2 ">
-        <div>
-            <ul class="footer-links ">
-                <li><i class="fa fa-map-marker ">Belrahj3@gmail.com</li>
-                <li><i class="fa fa-phone "></i>+2348102180628</li>
-                <li><i class="fa fa-envelope-o "></i>
-            </ul>
-            <p class="p3 p4 ">&copy;MerkBelTech2020.
-                <span class="active "></span> All Right Reserved
-            </p>
+                <input type="number" id="money" placeholder="Add Money">
+                 <button onclick="addMoney()">Add Money</button>
+         <br><br>
+                <h2>Add Expenses</h2>
+                <input type="text" id="expenseName" placeholder="expense name">
+                <input type="number" id="expenseAmount" placeholder="expense amount">
+                <button onclick="addExpense()">Add Expense</button>
+        <br><br>
+                 <h2>Added Epenses</h2>
+         <div id="addedExpenses"></div>
+        <br>
+         <div>
+                <a href="index.html">
+                    <button type="button">
+                         Back to Home
+                    </button>
+                </a>
         </div>
+        <br><br><br><br>
 
+    <footer>
+        <div class="box2 ">
+             <div>
+                <ul class="footer-links ">
+                    <li><i class="fa fa-map-marker ">Belrahj3@gmail.com</li>
+                    <li><i class="fa fa-phone "></i>+2348102180628</li>
+                    <li><i class="fa fa-envelope-o "></i>
+                </ul>
+                    <p class="p3 p4 ">&copy;MerkBelTech2020.
+                        <span class="active "></span> All Right Reserved
+                    </p>
+            </div>
+
+        </div>
+        </footer>
+
+
+         <script src="js/bootstrap.min.js"></script>
+         <script src="js/expense.js" type="text/javascript"></script>
     </div>
-</footer>
-
-
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/expense.js" type="text/javascript"></script>
-</div>
 </body>
 </html>
