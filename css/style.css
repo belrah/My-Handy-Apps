@@ -120,19 +120,18 @@ footer .box2 {
   color: white;
 }
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+  .text19 {
+    font-size: 15px;
+    padding: 20px;
+  }
+
+  .img1 {
+    width: 100%;
+  }
 }
 
-.text19 {
-  font-size: 15px;
-  padding: 20px;
-}
-
-.img1 {
-  width: 100%;
-}
-
-/*
+/* 
 @media(min-width: 576px) {
     .text10a {
         margin-top: 40px
@@ -147,7 +146,7 @@ footer .box2 {
 }
 */
 
-@media (max-width: 944px) {
+/* @media screen and (max-width: 944px) {
   nav {
     background: #cbe4f5;
     box-shadow: 0 1px 10px 1px rgba(23, 26, 214, 0.479);
@@ -162,7 +161,7 @@ footer .box2 {
     margin: 0 auto;
   }
 }
-@media (max-width: 860px) {
+@media screen and (max-width: 860px) {
   footer {
     min-width: 500%;
     margin: 0;
@@ -180,4 +179,4 @@ footer .box2 {
     font-size: 20px;
     text-align: center;
   }
-}
+} */
